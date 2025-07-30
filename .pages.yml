@@ -17,6 +17,7 @@ content:
       - { name: slug, label: Slug, type: string }
       - { name: draft, label: Draft, type: boolean }
       - { name: description, label: Description, type: string }
+      - { name: topic-field, label: Topic Field, type: reference, options: { collection: topics, multiple: true}}
   - name: topics
     label: Topics
     type: collection
